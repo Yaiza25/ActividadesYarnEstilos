@@ -1,0 +1,17 @@
+{
+  "name": "actividades",
+  "version": "0.0.1",
+  "description": "ejercicios",
+  "repository": "http://github.com/Yaiza25/YarnEstilos.git",
+  "author": "Yaiza25",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "parcel build *.html",
+    "start": "parcel serve *.html --open"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
