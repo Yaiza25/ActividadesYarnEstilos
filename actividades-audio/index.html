@@ -132,14 +132,14 @@
               function Next() {
                   if (i >= playList.length -1) i = 0;
                   else i++;
-                  audio.pause();
+
                   audio.src=playList[i];
                   audio.play();
               }
               function Behind() {
                   if (0 >= i) i = playList.length - 1;
                   else i--;
-                  audio.pause();
+
                   audio.src=playList[i];
                   audio.play();
               }
